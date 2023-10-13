@@ -15,3 +15,5 @@ axios 모듈 설치 - npm i axios --save
 [Styled Component](https://styled-components.com/docs/basics)는 Javascript 파일 안에서 CSS 처리하기 위한 라이브러리이다.
 
 설치 - npm i --save styled-components
+
+vscode-styled-components 확장프로그램 설치하여 가독성을 높인다
