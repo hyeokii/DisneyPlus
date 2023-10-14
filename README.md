@@ -28,4 +28,4 @@ Debounce Hook를 만들어 영화 검색시 불필요한 요청을 줄여 성능
 
 # Swiper
 
-[Swiper](https://swiperjs.com/react)
+[Swiper](https://swiperjs.com/react) 모듈을 사용하여 MainPage에 있는 Row Component를 수정하였다.
