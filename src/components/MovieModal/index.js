@@ -15,6 +15,7 @@ const MovieModal = ({
   const ref = useRef();
   useOnClickOutside(ref, () => {
     setModalOpen(false);
+    document.body.style.removeProperty("overflow");
   });
   return (
     <div className="presentation" role="presentation">
