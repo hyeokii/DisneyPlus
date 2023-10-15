@@ -118,10 +118,11 @@ const DropDown = styled.div`
   background: rgb(19, 19, 19);
   border: 1px solid rgba(151, 151, 151, 0.34);
   border-radius: 4px;
-  padding: 10px;
+  padding: 8px;
   font-size: 14px;
   letter-spacing: 3px;
-  width: 100%;
+  width: 100px;
+  text-align: center;
   opacity: 0;
 `;
 
