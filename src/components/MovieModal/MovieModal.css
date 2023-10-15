@@ -17,7 +17,11 @@
   top: 20px;
   cursor: pointer;
   z-index: 1000;
-  color: white;
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+  padding: 5px;
+  font-weight: bold;
 }
 
 .modal {

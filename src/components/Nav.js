@@ -23,7 +23,6 @@ const Nav = () => {
 
   useEffect(() => {
     onAuthStateChanged(auth, (user) => {
-      console.log(user);
       if (user) {
         if (pathname === "/") {
           navigate("/main");
@@ -96,7 +95,7 @@ const Nav = () => {
             onChange={handleChange}
             className="nav__input"
             type="text"
-            placeholder="검색해주세요."
+            placeholder="Search Movie!"
           />
           <SignOut>
             <UserImg src={userData.photoURL} alt={userData.displayName} />
@@ -195,6 +194,7 @@ const Logo = styled.a`
   margin-top: 4px;
   max-height: 70px;
   display: inline-block;
+  cursor: pointer;
 
   img {
     display: block;
