@@ -1,4 +1,4 @@
-# 개요
+# DisneyPlus-App
 
 React를 사용하여 DisneyPlus 웹 사이트를 구축한다.
 
