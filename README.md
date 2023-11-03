@@ -33,3 +33,7 @@ Debounce Hook를 만들어 영화 검색시 불필요한 요청을 줄여 성능
 # Google Login
 
 Firebase를 이용하여 Google Login 기능을 구현하였다.
+
+# Redux Toolkit
+
+Redux Toolkit 라이브러리를 사용하여 구글 로그인 정보를 관리하였다.

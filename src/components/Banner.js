@@ -46,7 +46,9 @@ const Banner = () => {
             ></Iframe>
           </HomeContainer>
         </Container>
-        <button onClick={() => setIsClicked(false)}>X</button>
+        <button className="cancle" onClick={() => setIsClicked(false)}>
+          X
+        </button>
       </>
     );
   } else {
